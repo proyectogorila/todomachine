@@ -1,0 +1,14 @@
+.TodoCounter {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: $Ys-fs25;
+  min-height: 4rem;
+  height: 15%;
+  line-height: $Ys-fs30;
+  color: $Ys-black;
+  font-weight: $Ys-600 ;
+  text-align: center;;
+}

@@ -1,0 +1,23 @@
+.TodoListSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25rem;
+    height: 60vh;
+    font-size: $Ys-fs17;
+    
+    
+    &__lista{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        justify-content: flex-start;
+        row-gap: 1.5rem;
+        text-align: justify;
+    }
+    
+    
+
+}

@@ -1,0 +1,51 @@
+.c-menu-mobil {
+
+    display: flex;
+    flex-direction: column;
+    @include font-16-700-20($Ys-black);
+    height: 100%;
+
+    &__icono-cerrar {
+        width: 1.2rem;
+        height: 1.2rem;
+        margin-right: 1.8rem;
+        margin-top: 2.2rem;
+        align-self: flex-end;
+        cursor: pointer;
+    }
+
+    &__menu-item {
+        @include margin1();
+    }
+
+    &__linea {
+        @include linea-difuminada();
+        margin: 0.2rem 3.9rem 0.2rem 3.9rem;
+    }
+
+    &__account-item {
+        @include margin1();
+    }
+
+    &__menu-singin {
+        @include font-14-700-175($Ys-primary-color);
+        display: flex;
+        flex-direction: column;
+        margin-top: 5rem;
+
+    }
+
+    &__singin-item {
+        @include margin2();
+
+        &--texto-negro {
+            @include font-14-300-175($Ys-black);
+        }
+    }
+
+    @include sd() {
+        display: none;
+    }
+
+
+}

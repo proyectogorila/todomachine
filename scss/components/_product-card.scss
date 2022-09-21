@@ -1,0 +1,42 @@
+.product-card {
+    display: flex;
+    flex-direction: column;
+
+    &__image {
+        width: 16.88rem;
+        border-radius: 2rem;
+
+    }
+
+    &__product-info-container {
+        margin-top: 1rem;
+        width: 16.88rem;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    &__text-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+
+    }
+
+    &__cost {
+        @include font-16-700-20($Ys-black)
+    }
+
+    &__bike {
+        @include font-14-700-175($Ys-secondary-color)
+    }
+
+    &__img-container {
+        width: 4rem;
+        height: 4rem;
+    }
+
+
+
+}
